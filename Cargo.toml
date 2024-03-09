@@ -27,3 +27,6 @@ http = "1.0"
 tower = "0.4"
 fastrand = "2.0"
 rcgen = { version = "0.12", default-features = false, features = ["ring"] }
+
+[patch.crates-io]
+wasm-bindgen-cli-support = { git = "https://github.com/rustwasm/wasm-bindgen" }
